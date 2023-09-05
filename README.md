@@ -34,7 +34,8 @@ epochs using mean-squared loss (MSE) and Adam optimization. We use sinusoidal re
 neural network and vary the number of hidden layers and hidden features to investigate scaling: `hls` x `hfs` where
 hidden layers, `hls` = [2, 3, 4, 5, 6, 7, 8] and hidden features, `hfs` = [32, 64, 128, 256, 512, 1024].
 
-[//]: # (TODO: Add colab link)
+I used [pretraining_image_fitting.ipynb](pretraining_image_fitting.ipynb) for these experiments. It's very hacky. I'm
+mostly providing it in case you need to see what exactly I used.
 
 ## Results
 
